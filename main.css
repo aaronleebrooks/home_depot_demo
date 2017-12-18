@@ -19,3 +19,13 @@
 	color: #ff5f25;
 	text-decoration: none;
 }
+
+.main {
+	width: 944px;
+}
+
+@media (max-width: 950px) {
+	.main {
+		width: 90%;
+	}
+}
