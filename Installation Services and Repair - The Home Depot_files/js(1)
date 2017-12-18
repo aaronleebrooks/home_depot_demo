@@ -1,0 +1,26 @@
+(function() {
+try {
+    (function(){
+/**/
+
+})();
+(function() {
+    var img = document.createElement("img");
+    try {
+	if (!Date.now) {
+	    Date.now = function() { return new Date().getTime(); }
+	}
+	img.src="//rt.spongecell.com/v1/r/307?pg=error&c=installation%20services%20and%20repair&cb="+Date.now();
+    }
+    catch(ex)
+    {
+	img.src="//pixel.mathtag.com/error/img?error_domain=spongecell&what="+encodeURIComponent(ex.message)
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap&what="+encodeURIComponent(ex.message);
+}
+})();

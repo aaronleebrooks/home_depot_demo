@@ -1,0 +1,21 @@
+.services-question {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 45px 0;
+}
+
+.services-question .brand-img {
+	display: inline-block;
+	width: 102px;
+	height: auto;
+}
+
+.services-question .brand-content {
+	margin-left: 20px;
+}
+
+.services-question .brand-content a {
+	color: #ff5f25;
+	text-decoration: none;
+}
