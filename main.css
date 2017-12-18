@@ -26,8 +26,8 @@
 }
 
 #breadcrumb {
-	margin: 0 auto;
 	width: 944px;
+    	margin-left: 10%;
 }
 
 @media (max-width: 950px) {
