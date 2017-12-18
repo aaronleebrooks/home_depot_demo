@@ -20,13 +20,13 @@
 	text-decoration: none;
 }
 
-.main {
+.techshed {
 	margin: 0 auto;
 	width: 944px;
 }
 
 @media (max-width: 950px) {
-	.main {
+	.techshed {
 		width: 90%;
 	}
 }
